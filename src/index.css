@@ -29,7 +29,7 @@
   }
 }
 
-main {
+.bg-hearts {
   background: url(../public/imgs/icons/bg-love.jpg);
   background-size: contain;
   background-attachment: fixed;

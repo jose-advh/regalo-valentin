@@ -1,9 +1,11 @@
-import Main from "./components/main";
+import Mensaje from "./components/Mensaje";
+import Presentacion from "./components/Presentacion";
 
 function App() {
   return (
     <>
-      <Main />
+      <Presentacion />
+      <Mensaje />
     </>
   );
 }

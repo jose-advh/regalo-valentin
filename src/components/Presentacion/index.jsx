@@ -1,6 +1,15 @@
-const Main = () => {
+const Presentacion = () => {
+  const handleScroll = (id, e) => {
+    e.preventDefault();
+    const seccion = document.getElementById(id);
+    seccion.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
-    <main className="flex flex-col items-center justify-center h-screen">
+    <article className="flex flex-col items-center justify-center bg-hearts h-screen">
       <section className="flex justify-around items-center border-4 border-red-300 w-[75%] h-[75%] rounded-lg bg-white/70">
         <img
           src="/imgs/img-osohearts.png"
@@ -32,11 +41,12 @@ const Main = () => {
           id="floating-image"
           src="/imgs/icons/icon-down.svg"
           alt="Click para bajar"
-          className="w-10 absolute bottom-[2%]"
+          onClick={(e) => handleScroll("mensaje", e)}
+          className="w-10 absolute cursor-pointer bottom-[2%]"
         />
       </section>
-    </main>
+    </article>
   );
 };
 
-export default Main;
+export default Presentacion;
