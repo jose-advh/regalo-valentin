@@ -36,6 +36,9 @@ const Presentacion = () => {
               </span>
             </p>
           </section>
+          <audio controls>
+            <source src="/songs/mai.mp3" />
+          </audio>
         </article>
         <img
           id="floating-image"

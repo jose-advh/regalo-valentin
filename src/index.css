@@ -7,8 +7,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GeneralFont";
+  src: url("/fonts/CarryYouRegular-3z71M.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-valentin {
   font-family: "MiFuente";
+}
+
+.general-font {
+  font-family: "GeneralFont";
 }
 
 .line-h-0 {
@@ -29,7 +40,7 @@
   }
 }
 
-.bg-hearts {
+body {
   background: url(../public/imgs/icons/bg-love.jpg);
   background-size: contain;
   background-attachment: fixed;

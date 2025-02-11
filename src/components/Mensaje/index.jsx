@@ -1,14 +1,49 @@
+import Card from "../Cards";
+import ImagenPao from "./ImagenPao";
+
 const Mensaje = () => {
   return (
-    <section className="h-screen w-[75%] m-auto" id="mensaje">
-      <img
-        src="/imgs/img-pao.png"
-        alt="Imagen de putichi"
-        className="rounded-xl"
+    <section
+      className="w-[75%] h-screen m-auto flex flex-wrap items-center justify-around gap-5 pt-3 pb-3 "
+      id="mensaje"
+    >
+      <Card
+        title="Eres para mí..."
+        description="un faro encendido,
+        luz en mi ruta, refugio querido.
+        Ríes, y el mundo brilla contigo,
+        alma sincera, calor infinito.
+
+        Eres abrigo en días oscuros,
+        voz que consuela, la paz en lo duro.
+        Nada nos quiebra, nada nos hunde,
+        somos un lazo que el tiempo no funde."
       />
-      <audio controls>
-        <source src="/songs/alma-dinamita.mp3" />
-      </audio>
+      <ImagenPao />
+      <Card
+        title="La mejor..."
+        description="amiga, dulce y sincera,
+        luz en mi vida, mi paz verdadera.
+        Siempre conmigo, firme en mi rumbo,
+        rayo que ahuyenta la sombra y el humo.
+
+        Eres el canto que alivia mis miedos,
+        voz que me anima, calor en mis dedos.
+        Nada nos quiebra, nada nos calla,
+        somos un lazo que el tiempo no raya."
+      />
+      <Card
+        title="Del mundo..."
+        description="eres un brillo sincero,
+        luz que ilumina mi andar verdadero.
+        Ríes y todo se torna alegría,
+        dulce refugio, pura armonía.
+
+        Eres el viento que impulsa mis sueños,
+        voz que me calma, calor en inviernos.
+        Nada nos quiebra, nada nos teme,
+        somos un lazo que el tiempo no frena."
+      />
     </section>
   );
 };
