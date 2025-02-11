@@ -10,11 +10,11 @@ const Presentacion = () => {
 
   return (
     <article className="flex flex-col items-center justify-center bg-hearts h-screen">
-      <section className="flex justify-around items-center border-4 border-red-300 w-[75%] h-[75%] rounded-lg bg-white/70">
+      <section className="flex flex-col p-2 lg:flex-row lg:p-1 justify-around items-center border-4 border-red-300 w-[75%] h-[75%] rounded-lg bg-white/70">
         <img
           src="/imgs/img-osohearts.png"
           alt="oso con corazones"
-          className="w-75"
+          className="w-25 md:w-75"
         />
         <article className="flex flex-col items-center justify-center text-yellow-600 text-2xl gap-7">
           <section className="flex flex-col">
