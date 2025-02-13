@@ -4,7 +4,7 @@ import ImagenPao from "./ImagenPao";
 const Mensaje = () => {
   return (
     <section
-      className="w-[75%] h-screen m-auto flex flex-wrap items-center justify-around gap-5 pt-3 pb-3 "
+      className="w-[75%] h-[80rem] lg:h-screen m-auto flex flex-wrap items-center justify-around gap-5 lg:gap-0 pt-3 pb-3 "
       id="mensaje"
     >
       <Card

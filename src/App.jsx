@@ -1,4 +1,5 @@
 import Mensaje from "./components/Mensaje";
+import Poema from "./components/Poema";
 import Presentacion from "./components/Presentacion";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Presentacion />
       <Mensaje />
+      <Poema />
     </>
   );
 }
