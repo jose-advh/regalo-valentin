@@ -29,8 +29,7 @@ const Mensaje = () => {
 
         Eres el canto que alivia mis miedos,
         voz que me anima, calor en mis dedos.
-        Nada nos quiebra, nada nos calla,
-        somos un lazo que el tiempo no raya."
+        Nada nos quiebra, nada nos calla."
       />
       <Card
         title="Del mundo..."
